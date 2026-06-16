@@ -1,4 +1,19 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    border: 0px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
 }

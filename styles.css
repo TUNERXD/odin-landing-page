@@ -8,21 +8,70 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .home {
     display: flex;
+    background-color: #1f2937;
+}
+
+.header {
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
+    
     color: #E5E7EB;
     border: 0px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul, .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    gap: 24px
+    gap: 24px;
 }
 
-.logo {
+.home {
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    gap: 100px;
+}
+
+.intro {
+    padding: 0;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+    flex: 0;
+}
+
+.web-image {
+    background-color: darkgray;
+    padding: 120px 200px;
+    height: auto;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border-style: none;
+    color: #E5E7EB  ;
+    padding: 8px 24px ;
+    border-radius: 6px;
     font-weight: bold;
+}
+
+.hero, .hero-secondary-text {
+    max-width: 450px;
 }

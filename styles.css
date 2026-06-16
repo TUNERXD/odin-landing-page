@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,7 +10,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     color: #E5E7EB;
@@ -16,4 +20,9 @@ body {
 ul {
     display: flex;
     list-style-type: none;
+    gap: 24px
+}
+
+.logo {
+    font-weight: bold;
 }

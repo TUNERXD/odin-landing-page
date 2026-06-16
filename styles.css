@@ -47,6 +47,7 @@ ul {
 
 .intro {
     padding: 0;
+    flex: 0 1 450px;
 }
 
 .hero {
@@ -59,9 +60,10 @@ ul {
 
 .web-image {
     background-color: darkgray;
-    padding: 120px 200px;
-    height: auto;
+    padding: 120px;
     color: #E5E7EB;
+    font-size: 18px;
+    flex: 0 0 1;
 }
 
 .sign-up-button {

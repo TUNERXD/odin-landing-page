@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
 .header {
     justify-content: space-around;
     align-items: center;
-    
     color: #E5E7EB;
     border: 0px;
 }
@@ -35,6 +34,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -73,6 +73,7 @@ ul {
     padding: 8px 24px ;
     border-radius: 6px;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .hero, .hero-secondary-text {

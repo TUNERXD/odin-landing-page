@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 .header, .home {
@@ -26,7 +27,7 @@ body {
     font-size: 24px;
 }
 
-ul, .hero-secondary-text {
+.subtext, .header-links {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -74,4 +75,44 @@ ul {
 
 .hero, .hero-secondary-text {
     max-width: 450px;
+}
+
+.info-header-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.information {
+    padding: 0 200px;
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px
+}
+
+.illus {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex: 0;
+}
+
+.illus div{
+    padding: 80px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+.illus p {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+
 }

@@ -26,7 +26,7 @@ body {
     font-size: 24px;
 }
 
-.subtext, .header-links {
+.subtext, .header-links, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -180,4 +180,11 @@ ul {
 
 .cta button {
     border: 1px #E5E7EB solid ;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    font-size: 12px;
+    padding: 20px 0;
 }
